@@ -21,6 +21,7 @@ root.render(
 
     </ReduxProvider>
     </StrictMode>
+    //route
   //strict mode yha use ki thi to 2 bar arha tha login succes
 );
 
