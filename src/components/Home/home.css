@@ -1,0 +1,76 @@
+.container {
+
+    height: 100vh;
+    padding: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.vector-graphic {
+    filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
+    /* here use it as shodows that budha,and neeche animation jo hila rha bo */
+    animation: vectoranimation 1s infinite ease-in-out alternate;
+}
+
+@keyframes vectoranimation {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.brandsbanner>svg {
+    /* svg use cos sb svg se lia gya h */
+    color: white;
+    font-size: 3rem;
+    transition: color 0.5s;
+}
+
+.brandsbanner>svg :hover {
+    /* here hover effect used jo click krne pr rang arha h bahi */
+    color: rgb(255, 221, 0);
+}
+
+.container2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* //from here hmari vdo centre m ajygi */
+}
+
+.container2 video {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.500);
+    /* //shadow le skte ho upto u */
+    width: 60%;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* // ye hua h us coz hmari vdo phone m kafi jbadi screen thi check kia hmne  */
+@media screen and (max-width:600px) {
+    .container2 {
+        height: unset;
+        padding: 4vh 0;
+
+        /* //from here hmari vdo centre m ajygi */
+    }
+
+    .container2 video {
+
+
+        width: 100%;
+
+    }
+}
+
+.course {
+    width: 250px;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+}
