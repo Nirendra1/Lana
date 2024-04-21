@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import introvdo from "../../assets/videos/im.mp4"
 import Termsandcondition from "../../assets/docs/Termsandcondition"
 import { useDispatch } from 'react-redux'
-import vd from "../../assets/images/Myimage.png"
+import vd from "../../assets/images/Boy.jpg.jpg"
 const Founder=()=>(
 
 <Stack 
@@ -21,8 +21,8 @@ boxSize={['40','48']} />
 <Text children="Co-Founder" opecity={0.7}/>
 </VStack>
 <VStack justifyContent={'center'} alignItems={['center','flex-start']}>
-<Heading children="Akash Dinkar" size={['md','xl']}/>
-<Text children={'Hi,I am a student in NITJ and a full-stack developer.Our mission is to provide quality content at reasonable price.'}/>
+<Heading children="Nirendra Pratap singh" size={['md','xl']}/>
+<Text children={'Hi, I am Software Engineer with 2 year of experience specializing in react.js, javascript, ES6, and css, tailwind, proficient in crafting responsible web applications and user interfaces with clean, efficient code.solving complex problems with innovative solutions. dedicated to delivering high quality software product that exceeds client expectations..'}/>
 
 </VStack>
 
